@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: write;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-card {
+    width: 300px;
+    padding: 5px 20px;
+    background:write;
+    border-radius: 16px;
+    text-align: center;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.profile-card{
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.3);
+}
+
+.profile-image {
+    width:250px;
+    height: 300px;
+    border-radius:10%;
+    object-fit: cover;
+    margin-bottom: 16px;
+    background: #e5e7eb;
+}
+
+.profile-card h2 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.skill {
+    padding: 6px 14px;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.skill.html {
+    background: #e34f26;
+}
+
+.skill.php {
+    background: #777bb4;
+}
+
+.skill.js{
+    background: #f0db4f;
+    color: #222;
+}
+
+.hire-btn {
+    padding: 12px 50px;
+    border: none;
+    border-radius: 5px;
+    background: #764ba2;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hire-btn {
+    background: #5b3a82;
+}
